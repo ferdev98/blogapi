@@ -44,5 +44,17 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'listen', '>= 3.0.5'
+  gem 'spring'
+  gem 'spring-watcher-listen'
+  gem 'rspec-rails'
 end
+
+group :test do
+  gem 'factory_bot_rails' 
+  gem 'shoulda-matchers'
+  gem 'faker'
+  gem 'database_cleaner'
+end
+
 
