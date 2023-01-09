@@ -48,6 +48,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'rspec-rails'
+  gem 'byebug'
 end
 
 group :test do
